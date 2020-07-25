@@ -4,24 +4,26 @@ Requirements:
 ------------------
     Python 3.6.9
     Virtual Enviornment
+    python request module
 
 
 Steps:
 -------------
     1) Install Python3
-	   sudo apt-get install python3
+        sudo apt-get install python3
 
     2) create an Virtual Environment
-	   python3 -m venv environmentName
+        sudo apt-get install python3-venv
+        python3 -m venv environmentName
 
     3) Install all the requirements in the environment
-	   pip3 install -r requirements.txt
+        pip3 install -r requirements.txt
 
     4) Run the retailer_search_rank.py
-	   python retailer_search_rank.py
+        python retailer_search_rank.py
 
     5) Inputs are:
-	   Hair Fall Shampoo, Conditioner, Shampoo
+        Hair Fall Shampoo, Conditioner, Shampoo
 
 
 Example:
